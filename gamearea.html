@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Gamearea</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/gamearea.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+	<div class="upper-div">		
+		<div class="topnav" id="myTopnav">
+		  <a href="index.html" class="actual-links">Gameplay</a>
+		  <a class="active actual-links">Gamearea</a>
+		  <a href="scoringsystem.html" class="actual-links">Scoring System</a>
+		  <a href="frenzymeter.html" class="actual-links">Frenzy Meter</a>
+		  <a href="abilities.html" class="actual-links">Abilities</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+		</div>	
+	</div>
+	
+	<section class="content expanded">
+		<div class="desc-box">
+			<div class="desc-container">
+				<div class="header-desc">Gamearea</div>
+				<div class="desc">Simply click on the blocks to score!</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="content">		
+		<div>
+			<div class="feat-header header-enlarged">Scoreboard</div>
+			<div class="subtitle-enlarged">The scoreboard area consists of the following:</div>
+		</div>
+		
+		<div class="score-feature">
+			<div class="feat-sect"> 
+			
+				<div class="feat-header">User Multiplier</div>
+				<div>Multiplies your current score</div>
+			</div>
+			<div class="feat-sect"> 
+			
+				<div class="feat-header">Timer</div>
+				<div>Limits your gametime</div>
+			</div>
+			<div class="feat-sect"> 
+			
+				<div class="feat-header">Score</div>
+				<div>Counts your score</div>
+			</div>
+			<div class="feat-sect"> 
+			
+				<div class="feat-header">Frenzy Meter</div>
+				<div>Activate for skills!</div>
+			</div>	
+		</div>
+
+	</section>
+	
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+		    x.className += " responsive";
+		  } else {
+		    x.className = "topnav";
+		  }
+		}
+	</script>
+
+</body>
+
+</html>
