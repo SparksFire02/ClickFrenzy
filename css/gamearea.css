@@ -1,0 +1,73 @@
+﻿.content {
+	max-width: 1000px;
+	margin: 0 auto 100px;
+	color: rgb(255, 255, 255);
+	padding: 0 1em;
+	display: flex;
+	flex-direction: column;
+}
+
+.expanded {
+	padding: 200px 1em;
+}
+
+.desc-box {
+	margin: 50px 30px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desc-container {
+	width: 40%;
+	position: relative;
+}
+
+.green-radial::before {
+	background: radial-gradient(circle closest-side, rgba(50, 193, 165, 0.2), transparent);
+	background-size: 100%;
+	width: 250px;
+	height: 250px;
+	content: "";
+	left: 0;
+    right: 70%;
+    top: -80%;
+    position: absolute;
+}
+
+.header-desc {
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.desc {
+	line-height: 1.5;
+	font-size: 1.2em;
+}
+
+.right {
+	flex-flow: row-reverse;
+}
+
+/* Start gamearea */
+
+.score-feature {
+	display: flex;
+	align-items: flex-start;
+}
+
+.feat-sect {
+	height: 20%;
+	width: 20%;
+	margin: 20px 20px;
+	text-align: center;
+}
+
+.feat-header {
+	width: 100%;
+	font-weight: bold;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
